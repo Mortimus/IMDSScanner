@@ -25,10 +25,10 @@ No installation required. It is a standalone Bash script.
 
 ```bash
 # Download
-wget [https://github.com/Mortimus/IMDSScanner/raw/main/cloud_meta_enum.sh](https://github.com/Mortimus/IMDSScanner/raw/main/cloud_meta_enum.sh)
+`wget https://github.com/Mortimus/IMDSScanner/raw/main/cloud_meta_enum.sh`
 
 # Make executable
-chmod +x cloud_meta_enum.sh
+`chmod +x cloud_meta_enum.sh`
 
 # Run
-./cloud_meta_enum.sh
+`./cloud_meta_enum.sh`
