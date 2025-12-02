@@ -4,9 +4,6 @@
 
 It is designed for situations where you have Command Injection or Shell access on a cloud instance (or a container/pod within it) and need to rapidly identify the environment, extract credentials, and map the attack surface.
 
-**Author:** Mortimus  
-**Repository:** [https://github.com/Mortimus/IMDSScanner](https://github.com/Mortimus/IMDSScanner)
-
 ---
 
 ## Features
@@ -25,10 +22,11 @@ No installation required. It is a standalone Bash script.
 
 ```bash
 # Download
-`wget https://github.com/Mortimus/IMDSScanner/raw/main/cloud_meta_enum.sh`
+wget https://github.com/Mortimus/IMDSScanner/raw/main/cloud_meta_enum.sh
 
 # Make executable
-`chmod +x cloud_meta_enum.sh`
+chmod +x cloud_meta_enum.sh
 
 # Run
-`./cloud_meta_enum.sh`
+./cloud_meta_enum.sh
+```
